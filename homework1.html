@@ -1,0 +1,68 @@
+
+<html>
+<head>
+   Numbers
+    <title>NUMBERS</title>
+    <style>
+    
+    
+
+    .grid-container{
+       display: grid;
+       margin: 10px;
+       border: 2px solid greenyellow;
+       background-color:rgba(240, 248, 255, 0.685);
+       grid-template-columns: repeat(6,1fr);
+      grid-template-rows: 200px 200px 200px 200px;
+      grid-template-areas:
+       "one one one one one one"
+       "two three three four six five"
+       "two three three four six five"
+       "seven seven seven seven seven seven";
+   
+
+    
+       }
+         .items{ 
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 20px;
+            background-color: rgba(255, 217, 0, 0.774);
+            margin: 5px;
+            padding: 20px;
+         }
+         #one{
+            grid-area: one;
+         }
+         #two{
+            grid-area: two;
+         }
+         #three{
+            grid-area: three;
+         }
+         #four{
+            grid-area: four;
+         }
+         #five{
+            grid-area: five;
+         }
+         #six{
+            grid-area: six;
+         }
+         #seven{
+            grid-area: seven;
+         }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="items" id="one">1</div>
+        <div class="items" id="two">2</div>
+        <div class="items" id="three">3</div>
+        <div class="items" id="four">4</div>
+        <div class="items" id="five">5</div>
+        <div class="items" id="six">6</div>
+        <div class="items" id="seven">7</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+<html>
+<head>
+ FLOAT PROPERTY
+    <title>Float Property</title>
+    <style>
+        .div1{
+            float:left;
+            padding: 10px;
+            border:3px solid lawngreen;
+        }
+        .div2{
+            padding: 10px;
+            border: 3px solid red;
+        }
+        .div3{
+            float:left;
+            padding:10px;
+            border:3px solid yellow;
+        
+        }
+        .div4{
+            padding: 10px;
+            border: 3px solid seagreen;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">Float Property</h1>
+    <h2 style="color: darkorange;">Without Clear</h2>
+    <div class="div1">Div1</div>
+    <div class="div2">
+        div2-notice that div2 is after div1 in the html. 
+        however,since div1 floats to the leaf
+        the text in div2 floats around div1.</div>
+    <br><br>
+    <h2 style="color:red">with clear</h2>
+    <div  class="div3">Div3</div>
+    <div class="div4">Div4 - here,clear:left;moves Div4 
+        down below the floatting div3. the value "left" clears
+        elements floated to the left.
+        you can also clear"right"and"both".
+
+    </div>
+</body>
+</html>

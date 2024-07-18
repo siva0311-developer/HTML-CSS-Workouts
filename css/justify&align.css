@@ -1,0 +1,24 @@
+.grid-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    /* justify-items: start; */
+    height: 800px;
+    /* align-items: start; */
+
+}
+ #box1{ 
+    width: 50%;  
+     justify-self:flex-end;  
+    align-self: center; 
+     height: 200px;}
+        
+ 
+#box2{
+ width: 50%;
+}
+#box3{
+    width: 50%;
+   }
+   #box4{
+    width: 50%;
+   }

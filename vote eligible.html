@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h3>Enter Ur Age To Find Your Voting Eligibilty</h3> 
+   <input id="age" type="number" placeholder="enter age">
+   <input type="button" value="submit" onclick="findEligibilty()">
+</body>
+<script>
+    function findEligibilty(){
+        const age = document.getElementById("age").value 
+        if(age>=18){
+            alert("eligible for voting")
+        } else{
+            alert(" not eligible for voting")
+        }
+    }
+</script>
+</html>

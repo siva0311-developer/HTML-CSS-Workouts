@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+<tr>
+    <td><textarea oninput="textInput(event)"></textarea></td>
+</tr>
+<tr><td><div id="content"></div></td></tr>
+<tr><td><input id="search-txt" type="text" placeholder="search-txt"></td></tr>
+<tr><td><input id="replace" type="text" placeholder="Replace-txt"></td></tr>
+<tr>
+    <td>
+        <input type="button" value="Replace" onclick="Replace()">
+        <input type="button" value="Replace All" onclick="Replace()">
+        <input type="button" value="Uppercase" onclick="Replace()">
+        <input type="button" value="Lowercase" onclick="Replace()">
+        
+    </td>
+</tr>
+    </table>
+</body>
+<script>
+    function textInput(event){
+        document.getElementById("content").innerHTML=event.target.value
+    }
+    function touppercase(){
+        let text =document.getElementById("content").innerHTML
+        document.getElementById("content").inner
+    }
+</script>
+</html>

@@ -1,0 +1,11 @@
+.grid-container{
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas:
+    "one one one one one one"
+    "two three three four four five"
+    "two three three six six five3"
+    "seven seven seven seven seven seven";
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;}

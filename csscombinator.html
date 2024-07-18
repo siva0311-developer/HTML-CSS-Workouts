@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> <b></b>Combinator
+    
+    <title>CSS</title>
+    <style>
+      /*  div p{
+            color:black;
+            background-color:darkgreen 
+        }
+        div > p{
+            background-color: deeppink;
+        }
+        div + p{
+            background-color: aqua;
+        }*/
+        div ~ p{
+            background-color:yellowgreen;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>CSS Combinator</h1>
+    <h1>
+        A combinator is something that explains the realtionship between the selector
+    </h1>
+    <h2>there are four different combinator in css:</h2>
+    <h3>1.Descendant selector (space)</h3>
+    <h3>2.Child selector(>)</h3>
+    <h3>3.Adjacent sibling selector(+)</h3>
+    <h3>4.general sibling selector(~)</h3>
+    <h1>Descendant Selector</h1>
+    The Descendant selector matches all elements that are Descendantof a specified one
+
+<div>
+    <p>Paragraph1</p>
+    <p>Paragraph2</p>
+    <section>
+        Not Child But Descendant
+        <p>Paragraph3 (inside a section elements).</p>
+    </section>
+    <p>Paragraph4</p>
+    <p>Paragraph5</p>
+</div>
+<p>Paragraph6</p>
+<p>Paragraph7</p>
+<p>Paragraph8</p> 
+
+</body>
+</html>
