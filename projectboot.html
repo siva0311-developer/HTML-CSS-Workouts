@@ -28,9 +28,7 @@
   height: 90vh;
   
 }
-.kuku{
-  
-}
+
 .col{
   color: gold;
   font-size: 15px;
@@ -44,9 +42,11 @@
       border-radius: 100px;
       width: 150px;
       height: 50px;
+      
        }
        .btn-btn-success:hover{
-        background-color:  rgb(0, 131, 116)
+        background-color:  rgb(0, 131, 116);
+        
         
        
        }
@@ -57,7 +57,7 @@
       border-radius: 40px;
       background-color:  rgb(0, 131, 116)
     }
-      
+     
 
 
     .box {
@@ -138,12 +138,17 @@
   margin-left: 10px;
   
 }
-
+.photo{
+text-align: left;
+  width: 380px;
+  height: 250px;
+}
 .pics{
   border-radius: 500px;
   width: 50px;
   height: 50px;
- margin-left: -100px;
+ margin-left: 20px;
+ margin-top: -20px;
 
 }
  .butt{
@@ -187,16 +192,101 @@ text-align: center;
  .buto:hover{
 
       background-color: rgb(0, 131, 116);
-      
-      
- }
- 
- .box-re{
-  width: 380px;
-  height: 450px;
-  border-radius: 10px;
+}
+ .card-text:hover{
+  color: rgb(0, 131, 116);
+}
+.box1{
+  width: 350px;
+  height: 480px;
+  padding: 10px;
+  background-color: rgb(0, 131, 116);
+}
+.boxes{
+  width: 300px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(26, 144, 130);
+}
+.ico{
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  
+ padding: 5px 10px;
+  color: white;
 
- }
+  background-color: #008372;
+  border-radius: 50px;
+}
+.id{
+  padding: 5px 10px;
+  outline-color: white;
+  border-radius: 50px;
+
+  background-color: rgb(0,118,104);
+  opacity: 0.7;
+}
+.id:hover{
+  color: rgb(0, 131, 116);
+  background-color: white;
+}
+.ico:hover{
+  color: white;
+  background-color: white;
+}
+.top{
+  margin-left: 70px;
+  margin-top: -40px;
+}
+.tops{
+  margin-top: -20px;
+}
+.box2{
+  width: 700px;
+  height: 480px;
+  margin-left: -15px;
+
+}
+.person{
+  width: 300px;
+  height: 30px;
+  margin-left: 30px;
+  
+}
+.person:hover{
+  outline-color: rgb(0, 131, 116) ;
+}
+.persons{
+  width: 620px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: +30px;
+}
+.persons:hover{
+  outline-color: rgb(0, 131, 116) ;
+}
+.toto{
+  margin-left: 30px;
+  margin-top: +30px;
+}
+.toto:hover{
+  outline-color: rgb(0, 131, 116) ;
+}
+.butss{
+  border-radius: 300px;
+ width: 150px;
+ height: 50px;
+  padding: 10px;
+  background-color: rgb(0, 131, 116);
+  margin-left: 260px;
+  margin-top: +10px;
+}
+.butss:hover{
+  opacity: 0.7;
+}
+
  </style>
 </head>
 
@@ -224,7 +314,6 @@ text-align: center;
     </div>
   </section>
   <section>
-    
     <div class="container-fluid " style="background-color:rgb(0,131,116);">
      
       <nav class="navbar navbar-expand-lg">
@@ -823,24 +912,120 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   <div class="row">
   <div class="col-12 col-6 about">
 <b>Recent Blog Posts</b> <br>
-<i style="color: rgb(0, 131, 116);" class="bi bi-dash-lg"></i><br>
-<p style="font-size: medium;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> <br>
-<div class="box-re shadow">
-        <img  src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-1.jpg" width="380px" height="250px"> <br>
-        <p class="op" style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Politics</p>
-        <h2 style="font-size: 20px; text-align:left ;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dolorum optio tempore <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;voluptas dignissimos</b></h2>
-        
-        <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author.jpg" alt="">
-         <b class="kuku"  style="font-size: medium;">Maria Doe</b>
-        <p class="op" style="font-size: medium; margin-left: -40px; margin-top:-30p;">Jan 1, 2022</p>
-        </div>
-</div>.
+<i style="color: rgb(0, 131, 116); font-size: 60px;" class="bi bi-dash-lg"></i><br>
+<p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> <br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-1.jpg">
+      <div class="card-body">
+        <h6 class="op" style="font-size: 15px; text-align: start;" >Politics</h5>
+          <p class="card-text" style="font-size: 20px;"><b>Dolorum optio tempore<br>voluptas dignissimos</b></p> <br>
+        <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author.jpg"> 
+        <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Maria Doe</b></p>
+      <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jan 1, 2022</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-2.jpg">
+      <div class="card-body">
+        <h5 class="op" style="font-size: 15px;">Sports</h5>
+        <p class="card-text" style="font-size: 20px;"><b>Nisi magni odit<br>consequatur autem nulla<br> dolorem</b></p> <br>
+        <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author-2.jpg" >
+        <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Allisa Mayer</b></p>
+        <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jun 5, 2022</p>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-3.jpg" >
+      <div class="card-body">
+        <h5 class="op" style="font-size: 15px;">Entertainment</h5>
+        <p class="card-text" style="font-size: 20px;"> <b>Possimus soluta ut id<br>suscipit ea ut in quo quia et<br>soluta</b></p> <br>
+        <img class="pics" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-author-3.jpg" >
+        <p style="font-size: 15px;margin-left: 80px; margin-top: -50px;"><b>Mark Dower</b></p>
+        <p class="op" style="font-size: 15px; margin-left: 80px; margin-top: -10px;">Jun 22, 2022</p>
+      </div>
+    </div>
+  </div>
 
+</div> <br><br>
+
+</div>
+</div>
+</div>. 
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 about">
+<b>Contact</b> <br>
+<i style="color: rgb(0, 131, 116); font-size: 60px;" class="bi bi-dash-lg"></i><br>
+    </div>
+  </div>
+</div>. 
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+<div class="box1 shadow">
+<div class="boxes"> <br> 
+  <i class="bi bi-geo-alt ico"></i>&nbsp;&nbsp;&nbsp; <p class="top" style="font-size: 20px; color: white;"><b>Address</b></p>
+  <p class="tops" style="font-size:13px; color: white; margin-left: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A108 Adam Street, New York, NY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;535022</p>
+</div> 
+<div class="boxes"> <br>
+  <i class="bi bi-telephone ico"></i>&nbsp;&nbsp;&nbsp;<p class="top" style="font-size: 20px; color: white;"><b>Call Us</b></p>
+  <p class="tops" style="font-size: 13px; color: white; margin-left: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 5589 55488 55</p>
+</div> 
+
+<div class="boxes"> <br>
+  <i class="bi bi-envelope ico"></i>&nbsp;&nbsp;&nbsp;<p class="top" style="font-size: 20px; color: white;"><b>Email Us</b></p>
+  <p class="tops" style="font-size: 13px; color: white; margin-left: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@example.com</p>
+</div> 
+
+<div class="boxes"> <br>
+  <i class="bi bi-clock ico"></i>&nbsp;&nbsp;&nbsp;<p class="top" style="font-size: 20px; color: white;"><b>Open Hours:</b></p>
+  <p class="tops" style="font-size: 13px; color: white; margin-left: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mon-Sat: 11AM - 23PM</p>
+</div>
+</div>
+   </div>
+  
+       <div class="col-md-8 and">
+<div class="box2 shadow"> <br>
+<input type="text" class="person" placeholder=" YourName"> <input type="text" class="person" placeholder=" YourEmail"> <br>
+<input type="text" class="persons" placeholder=" Subject"> <br>
+<textarea class="toto" placeholder="Message" cols="80" rows="10"></textarea><br>
+<button class="butss" style="color: white;">Send Message</button>
+</div>
+</div>   
+</div> 
   </div>.
 </div>.
+</div>.
+<div class="container-fluid" style="background-color: rgb(0, 131, 116); ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12"> <br>
+<h4 style="font-size: 30px;">Impact</h4>
+<p style="font-size: 15px;">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget <br> nada terra videa magna derita valies darta donna mare <br> fermentum iaculis eu non diam phasellus.</p>
+<i class="bi bi-twitter-x id"></i>
+<i class="bi bi-facebook id"></i>
+<i class="bi bi-instagram id"></i>
+<i class="bi bi-linkedin id"></i>
 
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 </body>
 </html>
+
 
 
 
