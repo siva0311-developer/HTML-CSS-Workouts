@@ -76,7 +76,7 @@
       align-items: center;
       border-radius: 10px;
       background-color: rgb(0, 131, 116);
-      /* margin-top: -50px; */
+      margin-top: +20px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -161,27 +161,33 @@ text-align: left;
  .butt:hover{
   background-color: rgb(0,118,104);
   border: none;
+  border-color: white;
  }
 .viv{
 font-size: 40px;
 opacity: 0.4;
 }
 .you{
-font-size: 40px;
-text-align: center;
+font-size: 60px;
+margin-left: 30px;
+color:  black;
 }
-.dev{
-  text-align: center;
-}
+
 .img-fluid1{
   text-align: center;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: +10px;
 }
 .logo{
   border-radius: 20px;
   margin-left: 40px;
- 
+  color:silver;
+ font-size: 20px; 
+}
+.logo:hover{
+padding: 5px 10px;
+border-radius: 30px;
+background-color: rgb(0, 131, 116);
 }
 .buto{
   border-color: white;
@@ -193,9 +199,7 @@ text-align: center;
 
       background-color: rgb(0, 131, 116);
 }
- .card-text:hover{
-  color: rgb(0, 131, 116);
-}
+ 
 .box1{
   width: 350px;
   height: 480px;
@@ -232,6 +236,7 @@ text-align: center;
   color: rgb(0, 131, 116);
   background-color: white;
 }
+
 .ico:hover{
   color: white;
   background-color: white;
@@ -246,7 +251,7 @@ text-align: center;
 .box2{
   width: 700px;
   height: 480px;
-  
+  margin-left: -28px;
 
 }
 .person{
@@ -307,6 +312,7 @@ text-align: center;
    margin-left: 40px;
  padding: 30px;
  border-radius: 10px;
+ 
 }
 .emo{
   padding: 10px 15px;
@@ -314,6 +320,27 @@ text-align: center;
   font-size: 30px;
   background-color: rgb(0, 131, 116);
 }
+.ohh{
+font-size: 40px;
+
+color: transparent;
+margin-left: -20px;
+margin-top: -20px;
+opacity: 0.5;
+}
+.ohh:hover{
+  color: rgb(0, 131, 116);
+  background-color: transparent;
+}
+.raw{
+  padding: 10px 5px;
+  border-radius: 500px;
+  font-size: 60px;
+  background-color: rgb(0, 131, 116);
+ 
+ 
+}
+
 
  </style>
 </head>
@@ -347,7 +374,7 @@ text-align: center;
 <div class="container-fluid " style="background-color:rgb(0,131,116); ">
   <div class="container">
 <div class="row">
-<div class="col-md-6 col-12 order-1 order-2 "> <br>
+<div class="col-md-6 col-12 order-1 order-2 "> 
 <h5><b style="font-size: 40px;">Impact</b></h5>
 </div>
 <div class="col-md-6 col-12 order-md-2 order-1"> 
@@ -388,7 +415,8 @@ text-align: center;
          <ul class="dropdown-menu">
            <li><a class="dropdown-item" href="#">Dropdown1</a></li>
            
-           <li><a class="dropdown-item" href="#">Deepdown</a></li>
+           <li><a class="dropdown-item" href="#">Deep Dropdown</a></li>
+          
            <li><a class="dropdown-item" href="#">Dropdown2</a></li>
            <li><a class="dropdown-item" href="#">Dropdown3</a></li>
          </ul>
@@ -592,15 +620,16 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
  <div class="container">
   <div class="row cc align-items-center">
     <div class="col-12 text-center">
-      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="rgb(0, 131, 116)" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
-      </svg> <br>
+      <a href=""></a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-play-fill raw" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+      </svg><br>
 <b style="font-size: 40px;">Call To Action</b>
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="butt">Call To Action</button>
     </div>
      
-  </div>
+  </div><br><br>
 
 </div>
 </section>
@@ -614,56 +643,57 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <i class="bi bi-activity you"></i>
+            <i class="bi bi-activity you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
-              <h5 class="card-title dev">Nesciunt Mete</h5>
-              <p class="card-text dev">Provident nihil minus qul consequatur non omnis malores.Eos accusantium minus dolores iure perferendis tempore et consequatur <br>Read more-></p>
+              <h5 class="card-title">&nbsp;&nbsp;&nbsp;<b>Nesciunt Mete</b></h5>
+              <p class="card-text" style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Provident nihil minus qul consequatur non <br>&nbsp; omnis malores.Eos accusantium minus<br>&nbsp; dolores iure perferendis tempore et <br>  <br>&nbsp;&nbsp;Read more-></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <i class="bi bi-broadcast you"></i>
+            <i class="bi bi-broadcast you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
-              <h5 class="card-title dev">Eosle Commodi</h5>
-              <p class="card-text dev">Ut autem aut autem non a sint.Libero corrupti neque eum hic non ut nesciunt dolorem <br>Read more-></p>
+              <h5 class="card-title">&nbsp;&nbsp;&nbsp;<b>Eosle Commodi</b></h5>
+              <p class="card-text" style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Ut autem aut autem non a. sint sint sit <br>&nbsp; facilis nam iusto Libero corrupti neque <br>&nbsp; eum hic non ut nesciunt dolorem <br><br>&nbsp;&nbsp;Read more-></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <i class="bi bi-easel you"></i>
+            <i class="bi bi-easel you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
-              <h5 class="card-title dev">Ledo Markt</h5>
-              <p class="card-text dev">Ut execepturi voluptatem nisi sed. Quidem fuga consequatur.minus ea aut.vel qui id voluptas adipisci eos earum corrupti <br>Read more-></p>
+              <h5 class="card-title">&nbsp;&nbsp;&nbsp;<b>Ledo Markt</b></h5>
+              <p class="card-text" style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Ut execepturi voluptatem nisi sed. Quidem <br>&nbsp; fuga consequatur.minus ea aut.vel qui id <br>&nbsp; voluptas adipisci eos earum corrupti <br> <br>&nbsp;&nbsp;Read more-></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <i class="bi bi-bounding-box you"></i>
+            <i class="bi bi-bounding-box-circles you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
-              <h5 class="card-title dev">Asperiores Commodit</h5>
-              <p class="card-text dev">Non et  temporibus minus omnis sed dolor esse consequatur.Cupiditate sed error ea fuga sit provident adipisci neque <br> Read more-></p>
+              <h5 class="card-title">&nbsp;&nbsp;&nbsp;<b>Asperiores Commodit</b></h5>
+        <p class="card-text" style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Non et  temporibus minus omnis sed dolor <br>&nbsp; esse consequatur.Cupiditate sed error ea <br>&nbsp; fuga sit provident adipisci neque <br><br> Read more-></p>
+            </div>
+          </div>  
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <i class="bi bi-calendar4-week you"><i class="bi bi-circle-fill ohh"></i></i>
+            <div class="card-body">
+              <h5 class="card-title ">&nbsp;&nbsp;&nbsp;<b>Velit Doloremque</b></h5>
+              <p class="card-text"  style="font-size: 16px;">&nbsp;&nbsp;Cumque et suscipit saepe.Est maiores<br>&nbsp;autem enim facilis ut aut ipsam corporis<br>&nbsp;aut.Sed animi at autem alias elus labore <br><br>&nbsp;&nbsp;Read more-></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <i class="bi bi-calendar4-week you"></i>
+            <i class="bi bi-chat-square-text you"><i class="bi bi-circle-fill ohh"></i></i>
             <div class="card-body">
-              <h5 class="card-title dev">Velit Doloremque</h5>
-              <p class="card-text dev">Cumque et suscipit saepe.Est maiores autem enim facilis ut aut ipsam corporis aut.Sed animi at autem alias elus labore <br> Read more-></p>
-            </div>
+              <h5 class="card-title">&nbsp;&nbsp;&nbsp;<b>Dolori Architecto</b></h5>
+              <p class="card-text"  style="font-size: 16px;">&nbsp;&nbsp;&nbsp;Hic molestias ea quibusdam <br> &nbsp;&nbsp;enim doloremque aut neque non et debitis <br>&nbsp; lure.Corrupti recusandae ducimus enim <br> <br> Read more-></p>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <i class="bi bi-chat-square-text you"></i>
-            <div class="card-body">
-              <h5 class="card-title dev">Dolori Architecto</h5>
-              
-              <p class="card-text dev">Hic molestias ea quibusdam eos.Fugiat enim doloremque aut neque non et debitis lure.Corrupti recusandae ducimus enim <br> Read more-></p>
+          
             </div>
           </div>
         </div>
@@ -673,7 +703,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 
     </div>
 
-  </div>
+  </div><br><br>
 
 </div>
 </section>
@@ -732,7 +762,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   
-</div>
+</div><br><br>
 
   </div>
 
@@ -746,11 +776,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <b>Portfolio</b> <br>
 <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i><br>
 <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
-<p style="font-size: 20px;"><b> All</b>&nbsp;&nbsp;&nbsp;<b>App</b>&nbsp;&nbsp;&nbsp;<b>Product</b>&nbsp;&nbsp;&nbsp;<b>Branding</b>&nbsp;&nbsp;&nbsp;<b>Book</b></p>
+<p  style="font-size: 20px;"><b> All</b>&nbsp;&nbsp;&nbsp;<b>App</b>&nbsp;&nbsp;&nbsp;<b>Product</b>&nbsp;&nbsp;&nbsp;<b>Branding</b>&nbsp;&nbsp;&nbsp;<b>Book</b></p>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-     <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-1.jpg">
+     <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-1.jpg">
       <div class="card-body">
         <h5 class="card-title">App 1</h5>
         <p class="card-text op" style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -759,7 +789,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-1.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 1</h5>
         <p class="card-text op" style="font-size: medium;"> Lorem ipsum, dolor sit amet consectetur</p>
@@ -768,7 +798,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-1.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 1</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -777,7 +807,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-1.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-1.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 1</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -786,7 +816,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-2.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">App 2</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -795,7 +825,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-2.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 2</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -804,7 +834,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-2.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 2</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -813,7 +843,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-2.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-2.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 2</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -822,7 +852,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-3.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">App 3</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -831,7 +861,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-3.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Product 3</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -840,7 +870,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-3.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Branding 3</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
@@ -849,14 +879,14 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   </div>
   <div class="col">
     <div class="card h-100">
-      <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-3.jpg" alt="">
+      <img class="img-fluid2" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-3.jpg" alt="">
       <div class="card-body">
         <h5 class="card-title">Book 3</h5>
         <p class="card-text op"style="font-size: medium;">Lorem ipsum, dolor sit amet consectetur</p>
       </div>
     </div>
   </div>
-  </div>
+  </div><br><br>
 </div>
 </section>
 <section>
@@ -865,13 +895,13 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="col-md-12 col-md-6 about">
 <b>Our Team</b><br>
 <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i><br>
-<p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+<p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-1.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title dev">Walter White</h5>
+        <h5 class="card-title" style="text-align: center;">Walter White</h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Web Development</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -884,7 +914,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-2.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title dev">Sarah Jhinson</h5>
+        <h5 class="card-title"  style="text-align: center;">Sarah Jhinson</h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Marketing</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -897,7 +927,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-3.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title dev">William Anderson</h5>
+        <h5 class="card-title"  style="text-align: center;">William Anderson</h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Content</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -907,7 +937,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
   
-</div>
+</div><br><br>
 
   </div>
 
@@ -919,7 +949,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="col-md-12 col-md-6 about">
 <b>Pricing</b><br>
 <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i> <br>
-<p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+<p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
 <div class="card-group">
   <div class="box5 shadow">
     <div class="card-body">
@@ -937,6 +967,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   <div class="box6 shadow">
    
     <div class="card-body">
+      
       <h5 class="card-title">Business Plan</h5>
       <i style="color: white;" class="bi bi-rocket emo"></i>
       <p style="font-size:40px; color: rgb(0, 131, 116);"><b>$</b><b style="font-size: 30px; color: rgb(0, 131, 116);">29</b><b style="opacity: 0.5; color: silver; font-size: medium;">/month</b></p>
