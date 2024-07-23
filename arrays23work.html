@@ -6,7 +6,24 @@
     <title>home</title>
 </head>
 <body>
-    <input id="search-txt" type="text" placeholder="typing">
-    <input type="button" value="add" onclick="add()">
+    <input id="itemTxt" type="text" placeholder="typing">
+    <input type="button" value="add" onclick="addItem()">
+    <input id="itemvalue" type="number" size="2">
+    <input type="button" value="remove" onclick="removeItem()"><br>
 </body>
+<script>
+    let list = []
+    function addItem(){
+        let value = document.getElementById("itemTxt").value
+           
+        list= [...list,value]
+        console.log(list);
+    }
+
+    function removeItem(){
+        let value = document.getElementById("itemvalue").value
+        list.splice(value,1)
+        console.log(list);
+    }
+</script>
 </html>
