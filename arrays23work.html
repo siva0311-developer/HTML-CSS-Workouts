@@ -10,6 +10,7 @@
     <input type="button" value="add" onclick="addItem()">
     <input id="itemvalue" type="number" size="2">
     <input type="button" value="remove" onclick="removeItem()"><br>
+    <input type="button" value="Insert" onclick="InsertItem()"><br>
 </body>
 <script>
     let list = []
@@ -23,6 +24,13 @@
     function removeItem(){
         let value = document.getElementById("itemvalue").value
         list.splice(value,1)
+        console.log(list);
+    }
+    function InsertItem(){
+        let text = document.getElementById("itemTxt").value
+        let pos = document.getElementById("itemvalue").value
+
+        list.splice(pos,0,text)
         console.log(list);
     }
 </script>

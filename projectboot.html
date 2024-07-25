@@ -42,7 +42,8 @@
       border-radius: 100px;
       width: 150px;
       height: 50px;
-      
+      border: 2px solid ghostwhite;
+      opacity: 0.5;
        }
        .btn-btn-success:hover{
         background-color:  rgb(0, 131, 116);
@@ -62,7 +63,7 @@
 
     .box {
       position: relative;
-      left: 20px;
+      left: 30px;
       margin-left: 15px;
       
       bottom: 30px;
@@ -92,7 +93,7 @@
                 margin-top: 20px;
             }
             .css{
-              background-color: rgb(26, 144, 130);
+              background-color: rgb(0, 131, 116);
              
             }
         } 
@@ -179,24 +180,31 @@ color:  black;
   margin-top: +10px;
 }
 .logo{
-  border-radius: 20px;
+  border-radius: 30px;
   margin-left: 40px;
-  color:silver;
+ color: silver;
  font-size: 20px; 
+ border-style:solid;
+ padding: 4px;
+
 }
 .logo:hover{
 padding: 5px 10px;
 border-radius: 30px;
-background-color: rgb(0, 131, 116);
+color:rgb(0, 131, 116);
+background-color: white;
 }
 .buto{
-  border-color: white;
-  border-radius: 200px;
+  border-color: ghostwhite;
+  border-radius: 150px;
   width: 150px;
   height: 50px;
+  margin-top: -5px;
+background-color: transparent;
+color:grey;
 }
  .buto:hover{
-
+color: ghostwhite;
       background-color: rgb(0, 131, 116);
 }
  
@@ -205,7 +213,9 @@ background-color: rgb(0, 131, 116);
   height: 480px;
   padding: 10px;
   background-color: rgb(0, 131, 116);
+  margin-left: -10px;
 }
+
 .boxes{
   width: 300px;
   height: 100px;
@@ -238,8 +248,9 @@ background-color: rgb(0, 131, 116);
 }
 
 .ico:hover{
-  color: white;
+ 
   background-color: white;
+  color: rgb(0, 131, 116);
 }
 .top{
   margin-left: 70px;
@@ -249,9 +260,9 @@ background-color: rgb(0, 131, 116);
   margin-top: -20px;
 }
 .box2{
-  width: 700px;
+  width: 100%;
   height: 480px;
-  margin-left: -28px;
+  
 
 }
 .person{
@@ -263,30 +274,25 @@ background-color: rgb(0, 131, 116);
 .person:hover{
   outline-color: rgb(0, 131, 116) ;
 }
-.persons{
-  width: 620px;
-  height: 30px;
-  margin-left: 30px;
-  margin-top: +30px;
-}
+
 .persons:hover{
   outline-color: rgb(0, 131, 116) ;
 }
-.toto{
+/* .toto{
   margin-left: 30px;
   margin-top: +30px;
 }
 .toto:hover{
   outline-color: rgb(0, 131, 116) ;
-}
+} */
 .butss{
   border-radius: 300px;
  width: 150px;
  height: 50px;
   padding: 10px;
   background-color: rgb(0, 131, 116);
-  margin-left: 260px;
-  margin-top: +10px;
+  
+  
 }
 .butss:hover{
   opacity: 0.7;
@@ -300,19 +306,27 @@ background-color: rgb(0, 131, 116);
 
 }
 .box5{
-  width: 300px;
+  width: 350px;
   height: 550px;
   border-radius: 10px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   padding: 30px;
 }
 .box6{
-  width: 310px;
-  height: 600px;
-   margin-left: 40px;
+  width: 350px;
+  height: 620px;
+   /* margin-left: 40px; */
+   
  padding: 30px;
+ border:5px solid #008372;
  border-radius: 10px;
- 
+}
+.box7{
+  width: 350px;
+  height: 550px;
+  border-radius: 10px;
+  /* margin-left: 40px; */
+  padding: 30px;
 }
 .emo{
   padding: 10px 15px;
@@ -320,7 +334,7 @@ background-color: rgb(0, 131, 116);
   font-size: 30px;
   background-color: rgb(0, 131, 116);
 }
-.ohh{
+.ohh{ 
 font-size: 40px;
 
 color: transparent;
@@ -333,14 +347,12 @@ opacity: 0.5;
   background-color: transparent;
 }
 .raw{
-  padding: 10px 5px;
+  padding: 10px 20px;
   border-radius: 500px;
   font-size: 60px;
-  background-color: rgb(0, 131, 116);
- 
- 
+  color: ghostwhite;
+  background-color: rgb(0, 131, 116); 
 }
-
 
  </style>
 </head>
@@ -375,12 +387,12 @@ opacity: 0.5;
   <div class="container">
 <div class="row">
 <div class="col-md-6 col-12 order-1 order-2 "> 
-<h5><b style="font-size: 40px;">Impact</b></h5>
+<h5 class="d-md-block d-none"><b style="font-size: 40px;">Impact</b></h5>
 </div>
 <div class="col-md-6 col-12 order-md-2 order-1"> 
 <nav class="navbar navbar-expand-lg">
  <div class="container-fluid">
-   <a class="navbar-brand fs-1 text-white" href="#"><b></b></a>
+   <a class="navbar-brand fs-1 text-white d-block d-md-none" href="#"><b>Impact</b></a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
      data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
      aria-label="Toggle navigation">
@@ -431,55 +443,7 @@ opacity: 0.5;
  </div>
  </div>
  </section>
-    <!-- <div class="container-fluid " style="background-color:rgb(0,131,116);">
-     
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-1 text-white" href="#"><b>Impact</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="Home"><b>Home</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="About"><b>About</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="Service"><b>Services</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="portfolio"><b>Portfolio</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="Team"><b>Team</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="Blog"><b>Blog</b></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active text-light" href="Dropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  <b>Dropdown</b>
-                </a>
 
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Deepdown</a></li>
-                  <li><a class="dropdown-item" href="#">Dropdown2</a></li>
-                  <li><a class="dropdown-item" href="#">Dropdown3</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" href="Contact"><b>Contact</b></a>
-              </li>
-            </ul>
-          </nav> -->
           <section>
           <div class="container-fluid white" style="background-color:rgb(0, 131, 116); ;">
       <div class="container">
@@ -529,7 +493,7 @@ opacity: 0.5;
           <i class="bi bi-geo-alt" style="font-size:60px;"></i> 
           Magin Dolores
         </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div class="col-3  box shadow">
+        <div class="col-3  box shadow mb-3">
           <i class="bi bi-command" style="font-size:60px;"></i> 
           Neo Enim
         </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br><br>
@@ -559,7 +523,7 @@ opacity: 0.5;
 
 Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
 </div>
-<div class="col-md-6 col-12">
+<div class="col-md-6 col-12 ">
   <b class="lor"> <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </b></i> <br> <br>
   <i class="bi bi-check-circle-fill" style="color: rgb(0, 131, 116);"></i>&nbsp; Ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
   <i class="bi bi-check-circle-fill" style="color: rgb(0, 131, 116);"></i>&nbsp;Duis aute irure dolor in reprehenderit in voluptate velit.<br>
@@ -568,6 +532,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
     <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
   </svg> <br> -->
+  
   <img class="img-fluid" style="border-radius: 20px;" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/about-2.jpg" width="600" height="400" >
 </div>
   </div>
@@ -620,10 +585,11 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
  <div class="container">
   <div class="row cc align-items-center">
     <div class="col-12 text-center">
-      <a href=""></a>
-      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-play-fill raw" viewBox="0 0 16 16">
+     <a href="https://www.youtube.com/results?search_query=aasa+kooda+song" class="bi bi-play-fill raw"></a><br>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-play-fill raw" viewBox="0 0 16 16">
+      
         <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
-      </svg><br>
+        </svg><br> -->
 <b style="font-size: 40px;">Call To Action</b>
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="butt">Call To Action</button>
@@ -739,7 +705,8 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
         <p class="op" style="font-size: medium;">Freelancer</p>
         <i class="bi bi-star-fill col"></i>
         <i class="bi bi-star-fill col"></i>
-        <i class="bi bi-star-fill col"></i>
+        <i
+         class="bi bi-star-fill col"></i>
         <i class="bi bi-star-fill col"></i>
         <i class="bi bi-star-fill col"></i> <br>
         <i style="font-size: 20px; color: skyblue;" class="bi bi-quote"></i>Fugiat enim eram quae cillum <br> dolore dolor amet nulla culpa multos <br>export minium fugiat minim velit minim<br>dolor enim duis veniam ipsum anim<br>magna sunt elit fore quem dolore <br> labore illum veniam.<i style="color:skyblue ;font-size: 20px;" class="bi bi-quote"></i>
@@ -901,7 +868,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-1.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center;">Walter White</h5>
+        <h5 class="card-title" style="text-align: center;"><b>Walter White</b></h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Web Development</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -914,7 +881,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-2.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title"  style="text-align: center;">Sarah Jhinson</h5>
+        <h5 class="card-title"  style="text-align: center;"><b>Sarah Jhinson</b></h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Marketing</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -927,7 +894,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     <div class="card h-100">
       <img class="img-fluid1" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/team/team-3.jpg" width="300px" height="300px" style="border-radius: 60px;">
       <div class="card-body">
-        <h5 class="card-title"  style="text-align: center;">William Anderson</h5>
+        <h5 class="card-title"  style="text-align: center;"><b>William Anderson</b></h5>
         <p class="card-text op" style="font-size: medium; text-align: center;">Content</p>
         <i class="bi bi-twitter-x logo"></i>
         <i class="bi bi-facebook logo"></i>
@@ -946,53 +913,55 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 <section>
 <div class="container">
   <div class="row">
-    <div class="col-md-12 col-md-6 about">
+    <div class="col-md-12 about">
 <b>Pricing</b><br>
 <i class="bi bi-dash-lg" style="color: rgb(0, 131, 116);"></i> <br>
 <p style="font-size: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p><br>
 <div class="card-group">
-  <div class="box5 shadow">
+  <div class="box5 shadow ">
     <div class="card-body">
       <h5 class="card-title"> Free Plan</h5>
       <i style="color: white;" class="bi bi-box emo"></i>
       <p style="font-size:40px; color: rgb(0, 131, 116);"><b>$</b><b style="font-size: 30px; color: rgb(0, 131, 116);">0</b><b style="opacity: 0.5; color: silver; font-size: medium;">/month</b></p>
-      <p style="font-size: medium;">Quam adipiscing vitae proin</p> 
-      <p style="font-size: medium;">Nec feugiat nisl pretium</p>
-    <p style="font-size: medium;">Nulla at volutpat diam uteera</p>
-    <p style="font-size: medium;" class="op"><strike>Pharetra massa massa ultricies</strike></p>
-    <p style="font-size: medium;" class="op"><strike>Massa ultricies mi quis hendrerit</strike></p>
-    <button style="font-size: 20px; color: silver; " class="buto"><b>Buy Now</b></button>
+
+      <p class="bi bi-check-lg" style="font-size: medium;">Quam adipiscing vitae proin</p> 
+      <p class="bi bi-check-lg" style="font-size: medium;">Nec feugiat nisl pretium</p>
+    <p class="bi bi-check-lg" style="font-size: medium;">Nulla at volutpat diam uteera</p>
+    <p class="bi bi-x-lg" style="font-size: medium;" class="op"><strike>Pharetra massa massa ultricies</strike></p>
+    <p class="bi bi-x-lg" style="font-size: medium;" class="op"><strike>Massa ultricies mi quis hendrerit</strike></p>
+    <button style="font-size: 15px;  " class="buto"><b>Buy Now</b></button>
     </div>
   </div> <br>
-  <div class="box6 shadow">
+  <div class="box6 shadow " >
    
     <div class="card-body">
       
+
       <h5 class="card-title">Business Plan</h5>
       <i style="color: white;" class="bi bi-rocket emo"></i>
       <p style="font-size:40px; color: rgb(0, 131, 116);"><b>$</b><b style="font-size: 30px; color: rgb(0, 131, 116);">29</b><b style="opacity: 0.5; color: silver; font-size: medium;">/month</b></p>
-      <p style="font-size: 20px;">Quam adipiscing vitae proin</p>
-      <p style="font-size: 20px;">Nec feugiat nisl pretium</p>
-      <p style="font-size: 20px;">Nulla at volutpat diam uteera</p>
-      <p style="font-size: 20px;">Pharetra massa massa ultricies</p>
-    <p style="font-size: 20px;">Massa ultricies mi quis hendrerit</p>
-    <button style="font-size: 25px; color: silver; " class="buto"><b>Buy Now</b></button>
+      <p class="bi bi-check-lg" style="font-size: 20px;">Quam adipiscing vitae proin</p>
+      <p class="bi bi-check-lg" style="font-size: 20px;">Nec feugiat nisl pretium</p>
+      <p class="bi bi-check-lg" style="font-size: 20px;">Nulla at volutpat diam uteera</p>
+      <p class="bi bi-check-lg" style="font-size: 20px;">Pharetra massa massa ultricies</p>
+    <p class="bi bi-check-lg" style="font-size: 20px;">Massa ultricies mi quis hendrerit</p>
+    <button style="font-size: 20px; " class="buto"><b>Buy Now</b></button>
     
     
     </div>
   </div><br>
-  <div class="box5 shadow">
+  <div class="box7 shadow  ">
     
     <div class="card-body">
       <h5 class="card-title">Developer Plan</h5>
       <i style="color: white;" class="bi bi-send emo"></i>
-      <p style="font-size:40px; color: rgb(0, 131, 116);"><b>$</b><b style="font-size: 30px; color: rgb(0, 131, 116);">49</b><b style="opacity: 0.5; color: silver; font-size: medium;">/month</b></p>
-      <p style="font-size: medium;">Quam adipiscing vitae proin</p>
-      <p style="font-size: medium;">Nec feugiat nisl pretium</p>
-      <p style="font-size: medium;">Nulla at volutpat diam uteera</p>
-      <p style="font-size: medium;">Pharetra massa massa ultricies</p>
-    <p style="font-size: medium;">Massa ultricies mi quis hendrerit</p>
-    <button style="font-size: 20px; color: silver; " class="buto"><b>Buy Now</b></button>
+      <p class="bi bi-check-lg" style="font-size:40px; color: rgb(0, 131, 116);"><b>$</b><b style="font-size: 30px; color: rgb(0, 131, 116);">49</b><b style="opacity: 0.5; color: silver; font-size: medium;">/month</b></p>
+      <p class="bi bi-check-lg" style="font-size: medium;">Quam adipiscing vitae proin</p>
+      <p class="bi bi-check-lg" style="font-size: medium;">Nec feugiat nisl pretium</p>
+      <p class="bi bi-check-lg" style="font-size: medium;">Nulla at volutpat diam uteera</p>
+      <p class="bi bi-check-lg" style="font-size: medium;">Pharetra massa massa ultricies</p>
+    <p class="bi bi-check-lg" style="font-size: medium;">Massa ultricies mi quis hendrerit</p>
+    <button style="font-size: 15px; " class="buto"><b>Buy Now</b></button>
     
     </div>
   </div>
@@ -1143,7 +1112,7 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
 </div>
 </section>
 <section>
-<div class="container">
+<!-- <div class="container"> -->
   <div class="row">
     <div class="col-12 about">
 <b>Contact</b> <br>
@@ -1151,10 +1120,10 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
     </div>
   </div>
 </div>
-<div class="container-fluid">
+<div class="container">
   <div class="container">
     <div class="row">
-      <div class="col-md-4  ">
+      <div class="col-md-4 col-12  ">
 <div class="box1 shadow">
 <div class="boxes"> <br> 
   <i class="bi bi-geo-alt ico"></i>&nbsp;&nbsp;&nbsp; <p class="top" style="font-size: 20px; color: white;"><b>Address</b></p>
@@ -1174,21 +1143,40 @@ Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nih
   <i class="bi bi-clock ico"></i>&nbsp;&nbsp;&nbsp;<p class="top" style="font-size: 20px; color: white;"><b>Open Hours:</b></p>
   <p class="tops" style="font-size: 13px; color: white; margin-left: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mon-Sat: 11AM - 23PM</p>
 </div>
-</div>
-   </div>
+</div><br>
+   </div> 
   
-       <div class="col-md-8 and">
-<div class="box2 shadow"> <br>
-<input type="text" class="person" placeholder=" YourName"> <input type="text" class="person" placeholder=" YourEmail"> <br>
-<input type="text" class="persons" placeholder=" Subject"> <br>
-<textarea class="toto" placeholder="Message" cols="80" rows="10"></textarea><br>
-<button class="butss" style="color: white;">Send Message</button>
+       <div class="col-md-8 col-12 ">
+        <form action="forms/contact.php" method="post">
+          <div class="row gy-4">
+            <div class="col-md-6">
+<input type="text" name ="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+            <div class="col-md-6">
+              <input type="email"  class="form-control" placeholder="Your Email" required="">
+                          </div>
+                          <div class="col-md-12">
+                            <input type="text"  class="form-control" placeholder="Subject" required="">
+                                        </div>
+<div class="col-md-12">
+<textarea name="message" class="form-control" rows="8" placeholder="Message" required=""></textarea>
 </div>
-</div>   
+<div class="col-md-12 text-center" id="from1">
+  <button class="butss" type="submit" style="color: white;">Send Message</button>
+</div>
+          </div>
+        </form>
+
+  </div>
+</div>
+
+
+</div>
+</div>    
 </div> 
   </div>
 </div><br><br>
-</div>
+<!-- </div> -->
 </section>
 
 <section>
@@ -1231,9 +1219,13 @@ United States</p><br>
 <p style="font-size: 15px;"><b style="font-size: 15px;">Email:</b>info@example.com</p>
 </div>
     </div> <br><br><br>
+    <hr><br> 
     <i style="font-size: 12px;margin-left: 380px;" class="bi bi-c-circle"></i>&nbsp;Copyright <b>Impact</b> All Rights Reserved
+  <!-- </div> -->
+  
   <p style="font-size: 13px;margin-left: 430px;">Designed by BootstrapMade
   </p>
+ 
   </div>
 
  </div>
