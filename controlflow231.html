@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "pattern"></div>
+</body>
+<script>
+    // let patternText = ""
+
+    // for(let i=1; i<=5;i++){   //for(let i=1; i>=5;i--){reversing using1
+
+    //     for(let j=1; j<=i;j++){
+
+    //         patternText = patternText + "*"
+    //     }
+    //   patternText = patternText + "<br>"
+
+    // }
+    for (let i =1;i<=5;i++){
+        for(let a= 5;a>=i;a--){
+            patternText = patternText + "&nbsp"
+        }for(let b= 5;b<=i;b++){
+            patternText = patternText + "*"
+    } patternText = patternText + "<br>"
+}
+document.getElementById("pattern").innerHTML = patternText
+</script>
+</html>
