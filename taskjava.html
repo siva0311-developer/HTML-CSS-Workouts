@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+
+<body>
+
+    <input id="name" type="text" placeholder="Type Your name "> <br><br>
+
+    <input id="age" type="text" placeholder=".... "><br><br>
+
+    <!-- <input id="mark" type="text" placeholder=".... "><br><br> -->
+    <button type="button" onclick="submit()">submit</button>&nbsp;&nbsp;&nbsp;
+    <button type="button" onclick="rest()">Rest</button>
+    <script>
+
+
+        function submit() {
+            console.log("function called");
+            var name = document.getElementById("name").value
+            var age = document.getElementById("age").value
+
+             if (name == "") {
+            document.getElementById("name").style.borderBlockColor = "red"
+        } else if (age == "") {
+            document.getElementById("age").style.borderBlockColor = "red"
+        } else {
+            document.getElementById("name").style.borderBlockColor = "green"
+
+            document.getElementById("age").style.borderBlockColor = "green"
+
+        }
+        }
+       
+    </script>
+</body>
+
+</html>

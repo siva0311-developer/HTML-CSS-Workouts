@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd</title>
+</head>
+<body>
+    <div id="pattern"></div>
+</body>
+<script>
+    let txt = ""
+    for(let x = 1; x<=100; x+=10){
+for (let i=x; i<x+10; i+=2){
+    txt += i + " "
+}
+
+txt += "<br/>" 
+for(let j=x+1; j<=x+10; j+=2){
+
+    txt = j + " "
+}
+
+txt += "<br/>"
+
+    }document.getElementById("pattern").innerHTML = txt
+</script>
+</html>

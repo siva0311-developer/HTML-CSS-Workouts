@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+    <style>
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+.box4{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <div  class="box1" id="box1">Box1</div><br>
+    <div class="box2" id="box2">Box2</div><br>
+    <div class="box3">Box3</div><br>
+    <div class="box4">Box4</div><br>
+</body>
+<script>
+
+    document.getElementById("box1").addEventListener("click",function(){
+        alert("box clicked!");
+    });
+
+
+</script>
+</html>
